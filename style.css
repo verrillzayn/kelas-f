@@ -1,1 +1,321 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+body .judul {
+  background-color: #e3caa5;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  font-size: 1.6em;
+  margin-top: 30px;
+  font-family: 'Ubuntu', sans-serif;
+  box-shadow: 1px 10px 83px -23px rgba(33, 33, 33, 0.87);
+  -webkit-box-shadow: 1px 10px 83px -23px rgba(33, 33, 33, 0.87);
+  -moz-box-shadow: 1px 10px 83px -23px rgba(33, 33, 33, 0.87);
+}
+
+body #myCarousel {
+  margin-top: 50px;
+}
+
+body #myCarousel .carousel__slide .kotak-hari {
+  border: 2px solid black;
+  padding: 5px;
+  height: 270px;
+  border-radius: 12px;
+  background-color: white;
+}
+
+body #myCarousel .carousel__slide .kotak-hari .hari {
+  font-family: 'Playfair Display', serif;
+}
+
+body #myCarousel .carousel__slide .ke1 {
+  -webkit-box-shadow: 10px 10px 0px 1px rgba(230, 96, 96, 0.81), 10px 10px 0px 3px #000;
+          box-shadow: 10px 10px 0px 1px rgba(230, 96, 96, 0.81), 10px 10px 0px 3px #000;
+}
+
+body #myCarousel .carousel__slide .ke2 {
+  -webkit-box-shadow: 10px 10px 0px 1px rgba(89, 255, 125, 0.81), 10px 10px 0px 3px #000;
+          box-shadow: 10px 10px 0px 1px rgba(89, 255, 125, 0.81), 10px 10px 0px 3px #000;
+}
+
+body #myCarousel .carousel__slide .ke3 {
+  -webkit-box-shadow: 10px 10px 0px 1px rgba(235, 255, 80, 0.81), 10px 10px 0px 3px #000;
+          box-shadow: 10px 10px 0px 1px rgba(235, 255, 80, 0.81), 10px 10px 0px 3px #000;
+}
+
+body #myCarousel .carousel__slide .ke4 {
+  -webkit-box-shadow: 10px 10px 0px 1px rgba(84, 147, 255, 0.81), 10px 10px 0px 3px #000;
+          box-shadow: 10px 10px 0px 1px rgba(84, 147, 255, 0.81), 10px 10px 0px 3px #000;
+}
+
+body #myCarousel .carousel__slide .ke5 {
+  -webkit-box-shadow: 10px 10px 0px 1px rgba(255, 121, 246, 0.81), 10px 10px 0px 3px #000;
+          box-shadow: 10px 10px 0px 1px rgba(255, 121, 246, 0.81), 10px 10px 0px 3px #000;
+}
+
+body #myCarousel .carousel__slide .ke5 .parent {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: 0.5fr (1fr)[4];
+      grid-template-rows: 0.5fr repeat(4, 1fr);
+  grid-column-gap: 3px;
+}
+
+body #myCarousel .carousel__slide .ke5 .div1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+body #myCarousel .carousel__slide .ke5 .div2 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+body #myCarousel .carousel__slide .ke5 .div3 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-area: 1 / 3 / 2 / 4;
+}
+
+body #myCarousel .carousel__slide .ke5 .div4 {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 2 / 1 / 3 / 2;
+}
+
+body #myCarousel .carousel__slide .ke5 .div5 {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 2 / 2 / 3 / 3;
+}
+
+body #myCarousel .carousel__slide .ke5 .div6 {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-area: 2 / 3 / 3 / 4;
+}
+
+body #myCarousel .carousel__slide .ke5 .div7 {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 3 / 1 / 4 / 2;
+}
+
+body #myCarousel .carousel__slide .ke5 .div8 {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 3 / 2 / 4 / 3;
+}
+
+body #myCarousel .carousel__slide .ke5 .div9 {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-area: 3 / 3 / 4 / 4;
+}
+
+body #myCarousel .carousel__slide .ke5 .div10 {
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 4 / 1 / 5 / 2;
+}
+
+body #myCarousel .carousel__slide .ke5 .div11 {
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 4 / 2 / 5 / 3;
+}
+
+body #myCarousel .carousel__slide .ke5 .div12 {
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-area: 4 / 3 / 5 / 4;
+}
+
+body #myCarousel .carousel__slide .ke5 .div13 {
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 5 / 1 / 6 / 2;
+  font-weight: 800;
+}
+
+body #myCarousel .carousel__slide .ke5 .div14 {
+  font-weight: 800;
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 5 / 2 / 6 / 3;
+}
+
+body #myCarousel .carousel__slide .ke5 .div15 {
+  font-weight: 800;
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-area: 5 / 3 / 6 / 4;
+}
+
+body #myCarousel .carousel__slide .ke6 {
+  -webkit-box-shadow: 10px 10px 0px 1px rgba(0, 146, 114, 0.81), 10px 10px 0px 3px #000;
+          box-shadow: 10px 10px 0px 1px rgba(0, 146, 114, 0.81), 10px 10px 0px 3px #000;
+}
+
+body #myCarousel .carousel__slide .ke7 {
+  -webkit-box-shadow: 10px 10px 0px 1px rgba(89, 255, 191, 0.81), 10px 10px 0px 3px #000;
+          box-shadow: 10px 10px 0px 1px rgba(89, 255, 191, 0.81), 10px 10px 0px 3px #000;
+}
+
+.parent {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: (1fr)[4];
+      grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 3px;
+  grid-row-gap: 15px;
+  text-align: center;
+  font-size: 11px;
+}
+
+.div1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 1 / 1 / 2 / 2;
+  font-weight: 800;
+}
+
+.div2 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 1 / 2 / 2 / 3;
+  font-weight: 800;
+}
+
+.div3 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-area: 1 / 3 / 2 / 4;
+  font-weight: 800;
+}
+
+.div4 {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 2 / 1 / 3 / 2;
+  font-weight: 800;
+}
+
+.div5 {
+  font-weight: 800;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 2 / 2 / 3 / 3;
+}
+
+.div6 {
+  font-weight: 800;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-area: 2 / 3 / 3 / 4;
+}
+
+.div7 {
+  font-weight: 800;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 3 / 1 / 4 / 2;
+}
+
+.div8 {
+  font-weight: 800;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 3 / 2 / 4 / 3;
+}
+
+.div9 {
+  font-weight: 800;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-area: 3 / 3 / 4 / 4;
+}
+
+.div10 {
+  font-weight: 800;
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 4 / 1 / 5 / 2;
+}
+
+.div11 {
+  font-weight: 800;
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 4 / 2 / 5 / 3;
+}
+
+.div12 {
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-area: 4 / 3 / 5 / 4;
+  font-weight: 800;
+}
+/*# sourceMappingURL=style.css.map */
